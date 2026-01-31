@@ -26,7 +26,7 @@ export function LinkCard({ title, backgroundImage, onClick, flipped = false }: L
       
       {/* Content */}
       <div className="relative h-full flex flex-col justify-between p-6 md:p-8" style={{ transform: flipped ? 'scaleX(-1)' : 'none' }}>
-        <h3 className="text-white text-left text-2xl md:text-3xl tracking-tight font-semibold" style={{ fontFamily: 'var(--font-brand)' }}>
+        <h3 className="text-white text-left text-2xl md:text-3xl tracking-tight font-semibold">
           {title}
         </h3>
         

@@ -61,10 +61,10 @@ export function Header({ onNavigate }: HeaderProps) {
             {/* Logo - Uses Teletactile font */}
             <button
               onClick={() => onNavigate?.('home')}
-              className="text-2xl tracking-tight hover:opacity-70 transition-opacity"
+              className="text-2xl tracking-tight uppercase hover:opacity-70 transition-opacity"
               style={{ fontFamily: 'var(--font-logo)' }}
             >
-              Emadeb
+              EMADEB
             </button>
 
             {/* Menu Button - Far Right - Matches Close Button */}
@@ -164,7 +164,7 @@ export function Header({ onNavigate }: HeaderProps) {
                 
                 {/* Text Overlay */}
                 <div className="absolute top-4 left-4 md:top-6 md:left-6">
-                  <h3 className="text-white text-sm md:text-base tracking-tight" style={{ fontFamily: 'var(--font-brand)' }}>Contact us</h3>
+                  <h3 className="text-white text-sm md:text-base tracking-tight">Contact us</h3>
                 </div>
                 
                 {/* Arrow button */}

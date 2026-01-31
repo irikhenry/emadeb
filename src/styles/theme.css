@@ -1,5 +1,13 @@
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'FH_Lecturis';
+  src: url('../assets/fonts/FH_Lecturis.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --font-size: 16px;
   
@@ -170,7 +178,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-brand);
+    font-family: 'FH_Lecturis', var(--font-brand);
     letter-spacing: -0.03em;
     font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
     text-rendering: optimizeLegibility;
@@ -182,7 +190,7 @@
     font-weight: 600;
     line-height: 1.1;
     letter-spacing: -0.04em;
-    font-family: var(--font-brand);
+    font-family: 'FH_Lecturis', var(--font-brand);
   }
 
   /* H2: Section Titles - Scales from 22px (iPhone SE) to 56px (desktop) */
@@ -191,7 +199,7 @@
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: -0.03em;
-    font-family: var(--font-brand);
+    font-family: 'FH_Lecturis', var(--font-brand);
   }
 
   /* H3: Subsection Titles - Scales from 18px (iPhone SE) to 32px (desktop) */
@@ -200,7 +208,7 @@
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: -0.01em;
-    font-family: var(--font-brand);
+    font-family: 'FH_Lecturis', var(--font-brand);
   }
 
   /* H4: Card Titles - Scales from 16px (iPhone SE) to 24px (desktop) */
@@ -209,7 +217,7 @@
     font-weight: 600;
     line-height: 1.4;
     letter-spacing: -0.01em;
-    font-family: var(--font-body);
+    font-family: 'FH_Lecturis', var(--font-brand);
   }
 
   /* Body Text - Scales from 14px (iPhone SE) to 18px (desktop) */

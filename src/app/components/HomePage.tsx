@@ -65,7 +65,6 @@ export function HomePage({ onNavigate }: HomePageProps) {
             className="text-[42px] md:text-[56px] lg:text-[64px] leading-[0.95] bg-clip-text text-transparent" 
             style={{ 
               backgroundImage: 'linear-gradient(5deg, #01A70E, #FB0138)',
-              fontFamily: 'var(--font-brand)',
               fontWeight: 400,
               letterSpacing: '0.06em'
             }}
