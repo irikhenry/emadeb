@@ -17,20 +17,20 @@ import {
   MapPin,
   ArrowRight
 } from 'lucide-react';
-import heroImage from 'figma:asset/bc51fe585b17a207c3fc04fde8518139976f6f8f.png';
-import oldHeroImage from 'figma:asset/0bbccb6bb220989d4021c27c3449509803343db4.png';
-import cardImage1 from 'figma:asset/5ed565a729d33d4069d449f1cd412262deb1f8d2.png';
-import cardImage2 from 'figma:asset/0c1260bdab630256ee25ed16d5677e793bd4ec8f.png';
-import processingUnitImage from 'figma:asset/7471a5b0e7179d2ad1c356cb20a7e1636feab93b.png';
-import newProcessingDiagram from 'figma:asset/fdfc56661d0f05fd002af8ba72775b9ac5b5b864.png';
-import storageTankImage from 'figma:asset/a6ae651a08c7864a472b1d6a112c2bb765517a2f.png';
-import qualityAssuranceImage from 'figma:asset/70849d0ab00f6141969b7aa1ae395dfa4fb6390b.png';
-import midstreamEquipmentImage from 'figma:asset/b7c8ccc68bee0a06287040c93321440eae078a38.png';
-import upstreamEquipmentImage from 'figma:asset/99ac5638202ef5a041fc84e53ece27743387f42f.png';
-import downstreamEquipmentImage from 'figma:asset/0105f9c7053939c3c5ba7d18917f3d7219a612bc.png';
-import lpgEquipmentImage from 'figma:asset/59a12c1a8fbdeab3d63bcbb423a877c584f1b9d5.png';
-import lubricantsEquipmentImage from 'figma:asset/3d0fc9a91696f201471dc23ad612b848e3a64e03.png';
-import logisticsEquipmentImage from 'figma:asset/54f7349cfdfa1834934a3d69ac3572ddf77465fb.png';
+import heroImage from '../../assets/bc51fe585b17a207c3fc04fde8518139976f6f8f.png';
+import oldHeroImage from '../../assets/0bbccb6bb220989d4021c27c3449509803343db4.png';
+import cardImage1 from '../../assets/5ed565a729d33d4069d449f1cd412262deb1f8d2.png';
+import cardImage2 from '../../assets/0c1260bdab630256ee25ed16d5677e793bd4ec8f.png';
+import processingUnitImage from '../../assets/7471a5b0e7179d2ad1c356cb20a7e1636feab93b.png';
+import newProcessingDiagram from '../../assets/fdfc56661d0f05fd002af8ba72775b9ac5b5b864.png';
+import storageTankImage from '../../assets/a6ae651a08c7864a472b1d6a112c2bb765517a2f.png';
+import qualityAssuranceImage from '../../assets/70849d0ab00f6141969b7aa1ae395dfa4fb6390b.png';
+import midstreamEquipmentImage from '../../assets/b7c8ccc68bee0a06287040c93321440eae078a38.png';
+import upstreamEquipmentImage from '../../assets/99ac5638202ef5a041fc84e53ece27743387f42f.png';
+import downstreamEquipmentImage from '../../assets/0105f9c7053939c3c5ba7d18917f3d7219a612bc.png';
+import lpgEquipmentImage from '../../assets/59a12c1a8fbdeab3d63bcbb423a877c584f1b9d5.png';
+import lubricantsEquipmentImage from '../../assets/3d0fc9a91696f201471dc23ad612b848e3a64e03.png';
+import logisticsEquipmentImage from '../../assets/54f7349cfdfa1834934a3d69ac3572ddf77465fb.png';
 
 interface HomePageProps {
   onNavigate: (page: string) => void;
